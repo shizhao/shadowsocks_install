@@ -570,7 +570,7 @@ install_dependencies(){
         done
     elif check_sys packageManager apt; then
         apt_depends=(
-            gettext build-essential unzip gzip python python-dev python-setuptools curl openssl libssl-dev
+            gettext build-essential unzip gzip 2to3 python2-minimal python2 dh-python python-is-python3 python2-dev python2 python-dev-is-python3 python-setuptools curl openssl libssl-dev
             autoconf automake libtool gcc make perl cpio libpcre3 libpcre3-dev zlib1g-dev libev-dev libc-ares-dev git qrencode
         )
 
